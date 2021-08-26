@@ -19,13 +19,13 @@ function Cards() {
             <CardItem
               src={cardPic}
               text="Pastel Desert"
-              label="Adventure"
+              label="Nature"
               path="/services"
             />
             <CardItem
               src={cardPic2}
               text="Contemplation"
-              label="Luxury"
+              label="Nature"
               path="/services"
             />
           </ul>
@@ -33,13 +33,13 @@ function Cards() {
             <CardItem
               src={cardPic3}
               text="Brustialist Structures"
-              label="Mystery"
+              label="Architecture"
               path="/services"
             />
             <CardItem
               src={cardPic5}
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Bliss Scenery"
+              text="Bliss Scenery"
+              label="Nature"
               path="/products"
             />
             <CardItem
