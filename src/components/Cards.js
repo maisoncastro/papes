@@ -1,34 +1,52 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./Cards.css";
-import cardPic from "../images/img-5.jpg";
-import cardPic2 from "../images/img-6.jpg";
-import cardPic3 from "../images/img-7.jpg";
+import CardItem from "./CardItem";
+
+import cardPic from "../images/img-1.jpg";
+import cardPic2 from "../images/img-2.jpg";
+import cardPic3 from "../images/img-3.jpg";
+import cardPic4 from "../images/img-4.jpg";
+import cardPic5 from "../images/img-5.jpg";
+import cardPic6 from "../images/img-6.jpg";
 
 function Cards() {
   return (
     <div className="cards">
-      <h1>Most Popular Wallpapers</h1>
+      <h1>Featured Papes</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
               src={cardPic}
-              text="Bliss v2"
-              label="Landscape"
+              text="Pastel Desert"
+              label="Adventure"
               path="/services"
             />
             <CardItem
               src={cardPic2}
-              text="Gloomy Overview"
-              label="Landscape"
+              text="Contemplation"
+              label="Luxury"
+              path="/services"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src={cardPic3}
+              text="Brustialist Structures"
+              label="Mystery"
               path="/services"
             />
             <CardItem
-              src={cardPic3}
-              text="Through the blinds"
-              label="Landscape"
-              path="/services"
+              src={cardPic5}
+              text="Experience Football on Top of the Himilayan Mountains"
+              label="Bliss Scenery"
+              path="/products"
+            />
+            <CardItem
+              src={cardPic6}
+              text="Gloomy Urbanization"
+              label="Cityscape"
+              path="/sign-up"
             />
           </ul>
         </div>
