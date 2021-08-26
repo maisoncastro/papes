@@ -2,6 +2,8 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 import cardPic from "../images/img-5.jpg";
+import cardPic2 from "../images/img-6.jpg";
+import cardPic3 from "../images/img-7.jpg";
 
 function Cards() {
   return (
@@ -12,8 +14,20 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={cardPic}
-              text="Check this place out"
-              label="Adventure"
+              text="Bliss v2"
+              label="Landscape"
+              path="/services"
+            />
+            <CardItem
+              src={cardPic2}
+              text="Gloomy Overview"
+              label="Landscape"
+              path="/services"
+            />
+            <CardItem
+              src={cardPic3}
+              text="Through the blinds"
+              label="Landscape"
               path="/services"
             />
           </ul>
