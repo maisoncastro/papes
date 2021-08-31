@@ -9,7 +9,7 @@ function HeroSection() {
     <div className="hero-container">
       <img src={imgCover} alt="" />
       <h1>papes</h1>
-      <p>Only the most aesthetically pleasing wallpapers online.</p>
+      <p>Personal Selection of wallpapers across the internet</p>
       <div className="hero-btns">
         <Button
           className="btns"

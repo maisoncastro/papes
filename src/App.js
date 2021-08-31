@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        {/* <HeroSection /> */}
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
