@@ -9,3 +9,5 @@ yarn start
 ```
 
 Then go to [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+or see it live 💻: [papes.netlify.app](papes.netlify.app)
